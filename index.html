@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description"
+    content="End-to-end architectures in autonomous driving (AD) face a significant challenge in interpretability, impeding human-AI trust. Human-friendly natural language has been explored for tasks such as driving explanation and 3D captioning. However, previous works primarily focused on the paradigm of declarative interpretability, where the natural language interpretations are not grounded in the intermediate outputs of AD systems, making the interpretations only declarative. In contrast, aligned interpretability establishes a connection between language and the intermediate outputs of AD systems. Here we introduce Openbench, an integrated AD-language system that generates language aligned with the holistic perception-prediction-planning outputs of the AD model. By incorporating the intermediate outputs and a holistic token mixer sub-network for effective feature adaptation, Openbench achieves desirable accuracy, achieving state-of-the-art results in driving language tasks including driving explanation, 3D dense captioning, and command prediction. To facilitate further study on driving explanation task on nuScenes, we also introduce a human-labeled dataset, Nu-X. Codes, dataset, and models will be publicly available." />
+  <meta name="keywords"
+    content="Openbench: A New Benchmark And Baseline For Semantic Navigation In Smart Logistics" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    Openbench | Project Page
+  </title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico" />
+  <link href1="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet" />
+
+  <link rel="stylesheet" href="static/css/bulma.min.css" />
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css" />
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css" />
+  <link rel="stylesheet" href1="static/css/fontawesome.all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
+  <link rel="stylesheet" href="static/css/index.css" />
+  <link rel="stylesheet" href="https://unpkg.com/beerslider/dist/BeerSlider.css">
+
+  <script src1="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src2="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+<div class="column has-text-centered">
+  <h2 class="title is-2 publication-title">
+    Openbench: A New Benchmark And Baseline For Semantic Navigation In Smart Logistics
+  </h2>
+  <p style="color: rgb(169, 60, 60); font-size: 20px;">ICRA 2025</p>
+
+  <div class="is-size-5 publication-authors">
+  <!-- Paper authors 作者 -->
+  <span class="author-block">
+    Junhui Wang
+    <sup>1,2</sup>
+  ,</span>
+
+  <span class="author-block">
+    Dongjie Huo
+    <sup>3</sup>
+  ,</span>
+
+  <span class="author-block">
+    Zehui Xu
+    <sup>4</sup>
+  ,</span>
+
+  <span class="author-block">
+    Yongliang Shi
+    <sup>2</sup>
+  ,</span>
+
+  <span class="author-block">
+    Yimin Yan
+    <sup>2</sup>
+  ,</span>
+
+  <span class="author-block">
+    Yuanxin Wang
+    <sup>5</sup>
+  ,</span>
+
+  <span class="author-block">
+    Chao Gao
+    <sup>&dagger;2</sup>
+  ,</span>
+
+  <span class="author-block">
+    Yan Qiao
+    <sup>&dagger;1</sup>
+  ,</span>
+
+  <span class="author-block">
+    Guyue Zhou
+    <sup>2</sup>
+  </span>
+</div>
+
+<!-- a margin of 0.5em -->
+<div style="margin: 0.5em;"></div>
+<div class="is-size-5 publication-authors">
+  <span class="author-block is-size-6">
+    <sup>1</sup> Institute of Systems Engineering and Collaborative Laboratory for Intelligent Science and Systems, Macau University of Science and Technology <br>
+    <sup>2</sup> Institute for AI Industry Research (AIR), Tsinghua University <br>
+    <sup>3</sup> College of Information Science and Technology, Beijing University of Chemical Technology <br>
+    <sup>4</sup> School of Astronautics, Harbin Institute of Technology <br>
+    <sup>5</sup> School of Mechanical and Vehicular Engineering, Beijing Institute of Technology <br>
+    <span class="eql-cntrb"><small><sup>&dagger;</sup>Indicates Corresponding Author</small></span>
+  </span>
+</div>
+
+
+
+
+
+
+
+
+  <div class="column has-text-centered">
+    <div class="publication-links">
+      <!-- Arxiv PDF link -->
+      <span class="link-block">
+        <a href="https://arxiv.org/pdf/2409.06702" target="_blank"
+class="external-link button is-normal is-rounded is-dark">
+<span class="icon">
+  <i class="fas fa-file-pdf"></i>
+</span>
+<span>Paper</span>
+        </a>
+      </span>
+
+      <!-- ArXiv abstract Link -->
+      <span class="link-block">
+        <a href="https://arxiv.org/abs/2409.06702" target="_blank"
+class="external-link button is-normal is-rounded is-dark">
+<span class="icon">
+  <i class="ai ai-arxiv"></i>
+</span>
+<span>arXiv</span>
+        </a>
+      </span>
+
+      <!-- Github link -->
+      <span class="link-block">
+        <a href="https://air-discover.github.io/Openbench/" target="_blank"
+class="external-link button is-normal is-rounded is-dark">
+<span class="icon">
+  <i class="fab fa-github"></i>
+</span>
+<span>Code (Coming soon)</span>
+        </a>
+      </span>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaser video-->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/video/output.mp4" type="video/mp4" />
+        </video>
+        <!-- centering the image -->
+        <!-- <div class="columns is-centered">
+<!-- <div class="column is-four-fifths"> -->
+<!-- <div class="publication-video"> -->
+<!-- <img src="static/images/Teaser_cs1.jpg" width="100%" /> -->
+<!-- </div> -->
+<!-- </div> -->
+        <!-- </div> -->
+        <!-- <img src="static/images/Teaser_cs1.jpg" width="100%" /> -->
+        <h2 class="has-text-centered is-size-6">
+         待替换的视频<b>Openbench</b>.
+        </h2>
+      </div>
+    </div>
+  </section>
+  <!-- End teaser video -->
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+<h2 class="title is-3">Abstract</h2>
+<div class="content has-text-justified">
+  <p>
+The increasing demand for efficient last-mile de- livery in smart logistics underscores the role of autonomous robots in enhancing operational efficiency and reducing costs. Traditional navigation methods, which depend on high- precision maps, are resource-intensive, while learning-based approaches often struggle with generalization in real-world scenarios. To address these challenges, this work proposes the Openstreetmap-enhanced oPen-air sEmantic Navigation (OPEN) system that combines foundation models with classic al- gorithms for scalable outdoor navigation. The system leverages OpenStreetMap (OSM) for flexible map representation, thereby eliminating the need for extensive pre-mapping efforts. It also employs Large Language Models (LLMs) to comprehend deliv- ery instructions and Vision-Language Models (VLMs) for global localization, map updates, and house number recognition. To compensate the limitations of existing benchmarks that are inadequate for assessing last-mile delivery, this work introduces a new benchmark specifically designed for outdoor navigation in residential areas, reflecting the real-world challenges faced by autonomous delivery systems. Extensive experiments validate the effectiveness of the proposed system in enhancing navigation efficiency and reliability. To facilitate further research, our code and benchmark are publicly available
+
+  </p>
+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+
+        <h2 class="title is-3">Introduction & Method</h2>
+
+
+        <p><img src="images/overview.jpg" referrerpolicy="no-referrer" alt="overview"></p>
+        <p><strong><span>Fig. 1:</span></strong><span> Overview of the proposed benchmark framework. The diagram presents the simulation environments and corresponding OSM, which are provided for the implementation of semantic navigation systems. This framework necessitates the navigation system to process natural language instructions autonomously, enabling accurate navigation from the initial starting point to the designated customer&#39;s front door.</span></p>
+        <p><span>The OPEN system for autonomous last-mile delivery combines foundation models with classic algorithms to enhance semantic navigation. It employs LLMs for natural language understanding and VLMs for global localization, map updates, and house number recognition. This approach ensures reliable GPS-free navigation, improving the system&#39;s efficiency, reliability, and long-term performance.</span></p>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+
+
+
+
+        <h2 class="title is-3">Dataset</h2>
+
+
+<h2><img src="images/Simulation_last_mile_delivery.jpg" referrerpolicy="no-referrer" alt="Simulation_last_mile_delivery"></h2>
+<p><strong><span>Fig. 2:</span></strong><span> Simulation environment for last-mile delivery.</span></p>
+<p><span>Based on the gazebo simulation platform, we constructed three distinct world models of varying sizes, categorized into three levels: small, medium, and large, depending on the complexity of their environments. Each building within these models has been labeled with house numbers on their doors. Additionally, corresponding OSMs data are generated for each world model, reflecting real-world situations.</span>
+</p>
+
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <!-- Paper video. -->
+        <h2 class="title is-3">Results</h2>
+
+
+
+
+
+        <p><img src="images/flow.jpg" referrerpolicy="no-referrer" alt="Overview of the OPEN system"></p>
+        <p>&nbsp;</p>
+        <p><strong><span>Fig. 3:</span></strong><span> Overview of the OPEN system for autonomous last-mile delivery. The system initiates with a natural language delivery request, processed by a task planning module powered by an LLM. This module interacts with OSM to extract destination details and generates a structured task sequence. The robot autonomously decides between navigation and exploration modes, generating waypoints for execution by a classical planner.</span></p>
+        <p><span>The proposed OPEN system achieves success rates of 100%, 100%, and 60% in small, medium, and large environments, respectively, significantly outperforming baseline methods. The system demonstrates improved navigation efficiency and reliability in both simulated and real-world experiments.</span>
+        </p>
+
+<!-- Table with training and testing object categories -->
+
+<div style="margin: 1em;"></div>
+
+
+    </div>
+  </section>
+  <!-- End youtube video -->
+
+  <!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      If you find our work useful in your research, please consider citing:
+      <div style="margin: 0.5em;"></div>
+
+
+
+      <pre><code>@inproceedings{wangopenbench,
+  title={Openbench: A New Benchmark And Baseline For Semantic Navigation In Smart Logistics},
+  author={Wang, Junhui and Huo, Dongjie and Xu, Zehui and Shi, Yongliang and Yan, Yimin and Wang, Yuanxin and Gao, Chao and Qiao, Yan and Zhou, Guyue},
+  booktitle={ICRA 2025},
+  year={2025}
+}
+    </code></pre>
+
+
+
+
+    </div>
+  </section>
+  <!--End BibTex citation -->
+
+  <!-- End of Statcounter Code -->
+  <script src="https://unpkg.com/beerslider/dist/BeerSlider.js"></script>
+  <script>
+    new BeerSlider(document.getElementById('slider1'), { start: '40' });
+    new BeerSlider(document.getElementById('slider2'), { start: '40' });
+    new BeerSlider(document.getElementById('slider3'), { start: '40' });
+    new BeerSlider(document.getElementById('slider4'), { start: '40' });
+    new BeerSlider(document.getElementById('slider5'), { start: '40' });
+    new BeerSlider(document.getElementById('slider6'), { start: '40' });
+    new BeerSlider(document.getElementById('slider7'), { start: '40' });
+    new BeerSlider(document.getElementById('slider8'), { start: '40' });
+    new BeerSlider(document.getElementById('slider9'), { start: '40' });
+    new BeerSlider(document.getElementById('slider10'), { start: '40' });
+  </script>
+</body>
+
+</html>
